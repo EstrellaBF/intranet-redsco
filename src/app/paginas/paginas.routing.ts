@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PaginasComponent } from './paginas.component';
+import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+// import { PaginasComponent } from './paginas.component';
 
 export const PAGINAS_ROUTES: Routes = [
-  { path: 'inicio-sesion', component: PaginasComponent }
+  { path: 'inicio-sesion', component: InicioSesionComponent },
+  { path: 'portal', loadChildren: './portal/portal.module#PortalModule' }
 ];
 
 @NgModule({

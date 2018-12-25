@@ -4,12 +4,12 @@ import { Routes, RouterModule, ExtraOptions } from '@angular/router';
 export const NUCLEO_ROUTES: Routes = [
 	{
 		path: '',
-		redirectTo: '/inicio-sesion',
+		redirectTo: '/portal/principal',
 		pathMatch: 'full'
 	},
 	{
 		path: '**',
-		redirectTo: '/inicio-sesion'
+		redirectTo: '/portal/principal'
 	}
 ];
 

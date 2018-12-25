@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-portal',
-  templateUrl: './portal.component.html',
-  styleUrls: ['./portal.component.css']
+  templateUrl: './portal.container.html',
+  styleUrls: ['./portal.container.css']
 })
-export class PortalComponent implements OnInit {
+export class PortalContainer implements OnInit {
 
   constructor() { }
 
